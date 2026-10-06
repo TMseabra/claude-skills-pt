@@ -1,24 +1,24 @@
 # claude-skills-pt
 
-Uma coleção de skills para o Claude, em português de Portugal. Comecei isto porque estou a fazer o curso de Técnico de Informática e queria que o Claude me ajudasse sempre da mesma maneira nas coisas que repito muito: estudar, escrever relatórios, perceber erros, mexer no GitHub, preparar CVs e entrevistas.
+A collection of skills for Claude, written in European Portuguese. I started this because I'm studying IT programming and wanted Claude to help me the same way every time with the things I keep repeating: studying, writing reports, understanding errors, working on GitHub, and preparing CVs and interviews.
 
-Cada skill é uma pasta com um ficheiro `SKILL.md` onde explico ao Claude como fazer aquela tarefa.
+Each skill is a folder with a `SKILL.md` file where I explain to Claude how to do that task.
 
 ## Skills
 
-- **estudo**: pega nos meus apontamentos e faz resumos, pontos de estudo e perguntas para rever
-- **revisor-relatorios**: revê relatórios (como o da PAF) e aponta problemas de estrutura, clareza e português
-- **explicador-erros**: explica mensagens de erro passo a passo e diz como corrigir
-- **gerador-readme**: cria READMEs para os meus projetos
-- **preparacao-entrevistas**: simula entrevistas técnicas e de comportamento para estágios
-- **adaptador-cv**: ajusta o CV e a carta de apresentação a cada oferta
-- **revisor-codigo**: faz code review e chama a atenção para más práticas
-- **commits-prs**: escreve mensagens de commit e descrições de Pull Requests
-- **planeador-projetos**: parte uma ideia em tarefas e marcos
-- **tom-estilo**: muda o tom de um texto (mais formal, mais simples, mais técnico)
-- **gerador-exercicios**: inventa exercícios de programação com vários níveis
+- **estudo**: takes my notes and turns them into summaries, study points and review questions
+- **revisor-relatorios**: reviews reports (like my final project report) and points out problems with structure, clarity and Portuguese
+- **explicador-erros**: explains error messages step by step and says how to fix them
+- **gerador-readme**: writes READMEs for my projects
+- **preparacao-entrevistas**: simulates technical and behavioural interviews for internships
+- **adaptador-cv**: tailors my CV and cover letter to each job offer
+- **revisor-codigo**: does code review and flags bad practices
+- **commits-prs**: writes commit messages and Pull Request descriptions
+- **planeador-projetos**: breaks an idea down into tasks and milestones
+- **tom-estilo**: changes the tone of a text (more formal, simpler, more technical)
+- **gerador-exercicios**: makes up programming exercises at different difficulty levels
 
-## Estrutura
+## Structure
 
 ```
 claude-skills-pt/
@@ -40,58 +40,58 @@ claude-skills-pt/
     └── como-instalar.md
 ```
 
-Cada pasta em `skills/` tem pelo menos um `SKILL.md`. Algumas vão ter também exemplos ou checklists.
+Each folder in `skills/` has at least a `SKILL.md`. Some will also have examples or checklists.
 
-## Como usar
+## How to use
 
-Clona o repo e copia a pasta da skill que queres para as tuas skills no Claude:
+Clone the repo and copy the folder of the skill you want into your Claude skills:
 
 ```bash
 git clone https://github.com/TMseabra/claude-skills-pt.git
 ```
 
-Depois é só pedir a tarefa normalmente. Se o pedido encaixar na descrição da skill, o Claude usa-a. Os passos mais detalhados vão ficar em `docs/como-instalar.md`.
+Then just ask for the task as usual. If your request matches the skill's description, Claude will use it. More detailed steps will go in `docs/como-instalar.md`.
 
-## Como é um SKILL.md
+## What a SKILL.md looks like
 
 ```markdown
 ---
-name: nome-da-skill
-description: Quando usar esta skill e para quê.
+name: skill-name
+description: When to use this skill and what for.
 ---
 
-# Nome da skill
+# Skill name
 
-## O que faz
+## What it does
 ...
 
-## Passos
+## Steps
 1. ...
 2. ...
 
-## Como responder
+## How to respond
 ...
 ```
 
-A `description` é o que mais importa, porque é por ela que o Claude decide se usa a skill ou não.
+The `description` matters most, because it's what Claude uses to decide whether to use the skill or not.
 
-## Estado
+## Status
 
-Ainda estou a escrever isto. Por fazer:
+Still a work in progress. To do:
 
-- [ ] escrever o `SKILL.md` de cada skill
-- [ ] adicionar exemplos
-- [ ] escrever o `docs/como-instalar.md`
-- [ ] testar cada skill com pedidos reais e afinar as descrições
+- [ ] write the `SKILL.md` for each skill
+- [ ] add examples
+- [ ] write `docs/como-instalar.md`
+- [ ] test each skill with real requests and tweak the descriptions
 
-## Contribuir
+## Contributing
 
-Se tiveres ideias ou encontrares algo que possa melhorar, abre uma issue ou um Pull Request.
+If you have ideas or find something that could be better, open an issue or a Pull Request.
 
-## Autor
+## Author
 
-Tomás Seabra, formando de Técnico/a Programador/a de Informática.
+Tomás Seabra, student of the Programming Technician course (IT).
 
-## Licença
+## License
 
-MIT. Vê o ficheiro `LICENSE`.
+MIT. See the `LICENSE` file.
