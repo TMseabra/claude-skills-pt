@@ -1,5 +1,9 @@
 # claude-skills-pt
 
+![Claude](https://img.shields.io/badge/Claude-Skills-D97757?style=for-the-badge&logo=claude&logoColor=white)
+![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
+![Portuguese](https://img.shields.io/badge/Language-Portuguese_(PT)-006600?style=for-the-badge)
+
 A collection of skills for Claude, written in European Portuguese. I started this because I'm studying IT programming and wanted Claude to help me the same way every time with the things I keep repeating: studying, writing reports, understanding errors, working on GitHub, and preparing CVs and interviews.
 
 Each skill is a folder with a `SKILL.md` file where I explain to Claude how to do that task.
